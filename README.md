@@ -1,111 +1,136 @@
-📌 Crypto Live Coin Price Ticker :-
+# 🚀 Crypto Live Price Ticker :-
 
-A responsive and interactive Live Cryptocurrency Price Tracker built using HTML, CSS, and Vanilla JavaScript.
+A responsive **Live Cryptocurrency Price Tracker** built using **HTML, CSS, and Vanilla JavaScript**.  
+It fetches real-time data from the **CoinGecko API** and displays live market prices in a clean, modern dashboard UI.
 
-This project fetches real-time data using the CoinGecko API and displays live market prices in a clean dashboard UI.
+---
 
-🚀 Live Demo :-
-     https://funny-melomakarona-6d5410.netlify.app/
-✨ Features:-
+## 🌐 Live Demo
+ https://funny-melomakarona-6d5410.netlify.app/
 
-📊 Live cryptocurrency price tracking
-🔄 Refresh prices button
-🔍 Search coin by name or symbol
-⚡ Real-time API data (CoinGecko)
-⏳ Loading indicator while fetching data
-❌ Empty state handling ("No data found")
-🛡️ XSS input sanitization
-📱 Fully responsive design
-♿ Accessibility support (ARIA + keyboard friendly)
-📈 Analytics simulation via console logs
-🎨 Modern corporate dashboard UI
+---
 
-🛠️ Tech Stack:-
+## 📂 Repository
+https://github.com/sandip-kumar-jha/crypto-live-price-ticker
 
-HTML5
-CSS3
-JavaScript (Vanilla JS)
-Fetch API
-Async / Await
-CoinGecko API
+---
 
-📂 Project Structure :-
+## ✨ Features
 
-crypto-price-ticker/
+- 📊 Live cryptocurrency price tracking
+- 🔄 Refresh prices button
+- 🔍 Search coins by name or symbol
+- ⚡ Real-time API data (CoinGecko)
+- ⏳ Loading state handling
+- ❌ Empty state ("No data found")
+- 🛡️ XSS input sanitization
+- 📱 Fully responsive design
+- ♿ Accessibility support (ARIA + keyboard navigation)
+- 📈 Console analytics logging
+- 🎨 Modern corporate dashboard UI
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Fetch API
+- Async / Await
+- CoinGecko API
+
+---
+
+## 📁 Project Structure
+
+crypto-live-price-ticker/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 
-⚙️ How to Run the Project :-
 
-Clone the repository:
-git clone https://github.com/your-username/crypto-price-ticker.git
-Open the project folder:
-cd crypto-price-ticker
-Open index.html in your browser.
+---
 
+## ⚙️ How to Run
+
+1. Clone repository
+
+Open folder
+
+cd crypto-live-price-ticker
+
+Open index.html in browser
 
 📡 API Used
 
-This project uses the CoinGecko Public API
+CoinGecko Public API (No API Key Required)
 
-Example endpoint:
+Example:
 https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd
-No API key required.
 
-🧠 Key Functionalities :-
+🧠 Key Functionalities
 
-📊 Live Data Fetching-
-Uses fetch() and async/await
-Fetches real-time crypto prices.
+📊 Live Data
 
-🔍 Search Feature-
-Search coins by name or symbol
-Instant filtering of results.
+Uses fetch() + async/await to get real-time crypto prices.
 
-🔄 Refresh Feature-
-Reloads latest prices manually
+🔍 Search Feature
+
+Search coins by name or symbol instantly.
+
+🔄 Refresh Feature
+
+Manually reload latest prices.
+
 ⚠️ Error Handling
-API failure handling
-Empty result handling
-Input validation
+
+Handles API errors, empty results, and invalid inputs.
+
 🖥️ UI Features
+
 Modern dashboard layout
 Card-based coin design
 Hover animations
 Gradient hero section
 Responsive grid system
-Clean corporate styling.
+Clean corporate styling
 
-📱 Responsive Design :-
+📱 Responsive Design
 
-Optimized for:
+Works on:
 
-💻 Desktop
-💻 Laptop
-📱 Mobile
-📟 Tablets
-🔐 Security Features
-XSS protection using input sanitization
-No unsafe innerHTML usage for user input
+Desktop
+Laptop
+Tablet
+Mobile
+
+🔐 Security
+
+XSS input sanitization
 Safe DOM rendering
-📊 Analytics (Simulation)
+No unsafe user input injection
 
-Console logs on user actions:
+
+📊 Analytics
+
+Console log on actions:
 
 [Analytics] User interacted with Live Coin Price Ticker
-❗ Edge Case Handling
+
+❗ Edge Cases Handled
 Empty search → "No data found"
-API failure → error message displayed
+API failure → error message shown
 Invalid input → highlighted field
-Slow network → loading indicator shown.
+Slow network → loading indicator
 
-📌 Note
-
-This project is built for learning + internship submission purposes
 
 👨‍💻 Author
 
 Sandip Kumar Jha
+
+
+
+
