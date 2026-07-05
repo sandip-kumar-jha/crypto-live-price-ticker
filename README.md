@@ -5,7 +5,7 @@ A responsive and interactive Live Cryptocurrency Price Tracker built using HTML,
 This project fetches real-time data using the CoinGecko API and displays live market prices in a clean dashboard UI.
 
 🚀 Live Demo :-
-
+     https://funny-melomakarona-6d5410.netlify.app/
 ✨ Features:-
 
 📊 Live cryptocurrency price tracking
